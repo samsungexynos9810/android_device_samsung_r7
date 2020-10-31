@@ -19,8 +19,8 @@
 # Inherit from Note 10 Lite device
 $(call inherit-product, device/samsung/r7/device.mk)
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+# Inherit some common Pitch stuff.
+$(call inherit-product, vendor/pb/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := r7
